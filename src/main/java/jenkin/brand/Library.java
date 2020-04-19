@@ -5,6 +5,7 @@ package jenkin.brand;
 
 public class Library {
     public boolean someLibraryMethod() {
+      system.out.println("Test branch");
         return true;
     }
 }
