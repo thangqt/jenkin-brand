@@ -8,7 +8,7 @@ pipeline {
       stage('Build') {
          steps {
             sh 'gradle clean build'
-            junit '**/target/surefire-reports/TEST-*.xml'
+            junit 'build/test-results/**/TEST-*.xml'
          }
       }
    
