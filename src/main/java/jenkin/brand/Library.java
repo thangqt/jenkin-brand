@@ -5,6 +5,7 @@ package jenkin.brand;
 
 public class Library {
     public boolean someLibraryMethod() {
+        System.out.println("caiasdasdasdads");
         return true;
     }
 }
